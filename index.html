@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #0b0b0f; color: #fff; }
+    .container { max-width: 1000px; margin: auto; padding: 40px 20px; }
+    .header { display: flex; flex-direction: column; gap: 10px; margin-bottom: 30px; }
+    h1 { margin: 0; font-size: 36px; }
+    p { margin: 0; opacity: 0.85; line-height: 1.5; }
+    .links a { margin-right: 12px; color: #7dd3fc; text-decoration: none; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 30px; }
+    .card { background: #15151f; border: 1px solid #272739; border-radius: 14px; padding: 18px; }
+    .card h3 { margin: 0 0 8px; }
+    .tag { display: inline-block; font-size: 12px; padding: 4px 8px; border-radius: 999px; background: #23233a; margin-right: 6px; margin-top: 8px; }
+    .btns { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .btn { padding: 8px 10px; border-radius: 10px; background: #0f172a; border: 1px solid #334155; color: #fff; text-decoration: none; }
+    .btn:hover { opacity: 0.9; }
+    .footer { opacity: 0.7; margin-top: 40px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Your Name</h1>
+      <p>Student | Builder | Interested in AI + Product. Here are some projects I built.</p>
+      <div class="links">
+        <a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank">LinkedIn</a>
+        <a href="mailto:youremail@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="grid">
+
+      <!-- Project 1 -->
+      <div class="card">
+        <h3>Image Background Remover</h3>
+        <p>AI web app that removes backgrounds and exports transparent PNGs.</p>
+        <div>
+          <span class="tag">Flask</span>
+          <span class="tag">Python</span>
+          <span class="tag">rembg</span>
+          <span class="tag">Render</span>
+        </div>
+        <div class="btns">
+          <a class="btn" href="PASTE_YOUR_LIVE_DEMO_LINK" target="_blank">Live Demo</a>
+          <a class="btn" href="PASTE_YOUR_GITHUB_REPO_LINK" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+
+      <!-- Project 2 (copy this card for more) -->
+      <div class="card">
+        <h3>Project Name 2</h3>
+        <p>One-line description of what it does.</p>
+        <div>
+          <span class="tag">Tag1</span>
+          <span class="tag">Tag2</span>
+        </div>
+        <div class="btns">
+          <a class="btn" href="#" target="_blank">Live Demo</a>
+          <a class="btn" href="#" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      Built by Your Name • Hosted on GitHub Pages
+    </div>
+  </div>
+</body>
+</html>
